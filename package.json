@@ -1,0 +1,30 @@
+{
+  "name": "svg-generator-pro",
+  "version": "1.0.0",
+  "description": "Generate customizable SVG backgrounds and graphics with multiple styles and color schemes",
+  "main": "scripts/generate-svg.js",
+  "bin": {
+    "svg-generator": "./scripts/svg-generator",
+    "svg-to-png": "./scripts/svg-to-png",
+    "ppt-image-generator": "./scripts/ppt-image-generator"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "svg",
+    "generator",
+    "graphics",
+    "backgrounds",
+    "presentation"
+  ],
+  "author": "Nima AI",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.11.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NimaChu/svg-generator-pro.git"
+  }
+}
